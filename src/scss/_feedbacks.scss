@@ -1,0 +1,61 @@
+.feedbacks {
+    background-color: #4A3C4D;
+    background-image: url(../img/feedbacks/feedbacks-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    &__header {
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 48px;
+        color: white;
+        margin-bottom: 85px;
+    };
+    &__content {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 110px;
+    };
+    &__item {
+        margin: 0 auto;
+        max-width: 315px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+        font-family: Lato sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+    };
+    &__text {
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+    };
+    &__descriptions {
+        font-family: Lato;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 21px;
+        color: #A291A5;
+        margin-top: 120px;
+        max-width: 890px;
+    };
+    &__underline {
+        margin: 0 auto;
+        width: 65%;
+        height: 2px;
+        background: #645766;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+};
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};

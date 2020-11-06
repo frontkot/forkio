@@ -1,0 +1,153 @@
+.header {
+    background: url(../img/header/header-bg.png) no-repeat center black;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    &__title {
+        margin-top: 110px;
+        color: white;
+        font-weight: bold;
+        font-size: 82px;
+    };
+    &__description {
+        font-size: 30px;
+        color: #8D81AC;
+        font-family: Lato;
+        margin-top: 20px;
+    };
+    &__version {
+        color: #848E97;
+        text-transform: uppercase;
+        margin-top: 19px;
+        margin-bottom: 450px;
+    };
+    &__button-block {
+        position: absolute;
+        left: calc(50% - 195px);
+        top: calc(100% - 35px);
+    };
+    &__button {
+        padding: 22px 61px;
+        font-weight: bold;
+        font-size: 21px;
+        background: #8D81AC;
+        border-radius: 40px;
+    };
+    &__button:hover {
+        background: white; 
+        padding: 21px 60px;
+        border: 1px solid #8D81AC;
+        cursor: pointer;
+    };
+    &__button:hover .button__link {
+        color: #8D81AC;
+    };
+    &__button-profit {
+        font-size: 14px;
+        margin-top: 19px;
+        color: #848E97;
+    };
+
+};
+.button__link {
+    text-decoration: none;
+    color: white;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    color: #8D81AC;
+};
+.logo {
+    padding-left: 60px;
+    font-size: 24px;
+    color: #8D81AC;
+    font-family: Lato;
+    text-transform: uppercase;
+    padding-top: 45px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    &__text::before {
+        content: url(../img/header/logo.png);
+        position: absolute;
+        width: 43px;
+        height: 41px;
+        left: 0;
+        top: 35%;
+    };
+    &__icon {
+        display: none;
+    }
+    &:hover {
+        color: white;
+    };
+    &:hover &__text::before {
+        content: url(../img/header/logo-hover.png);
+    };
+
+
+
+};
+
+
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        text-decoration: none;
+        color: #8D81AC;
+        font-weight: bold;
+        padding: 0 24px;
+        font-size: 16px;
+        &:hover {
+            color: white;
+        };
+    
+    };
+    &__item {
+        padding: 42px 0;
+        &--buy{
+            padding: 42px 0;
+        }
+    };
+    &__item--buy{
+            padding: 31px 0;
+    };
+    &__buy-now {
+        color: white;
+        padding: 11px 35px;
+        background: #8D81AC;
+        border-radius: 40px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+    
+    };
+    &__buy-now:hover {
+        color: #8D81AC;
+        background: white; 
+        padding: 10px 34px;
+        border: 1px solid #8D81AC;
+    }&__buy-now:hover {
+        color: #8D81AC;
+        background: white; 
+        padding: 10px 34px;
+        border: 1px solid #8D81AC;
+    }
+
+
+};
+.static-navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+
